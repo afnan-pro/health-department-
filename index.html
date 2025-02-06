@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Health Department - Symptom Checker & Health Tips</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#symptom-checker">Symptom Checker</a></li>
+                <li><a href="#health-tips">Health Tips</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to the Health Department</h1>
+        <p>Your health and well-being are our priority. Explore our services, tips, and tools.</p>
+    </section>
+
+    <!-- Symptom Checker Section -->
+    <section id="symptom-checker" class="checker">
+        <h2>Symptom Checker</h2>
+        <p>Fill in your symptoms below, and we can suggest possible conditions you might have.</p>
+        <form id="symptomForm">
+            <label for="symptom">What symptoms are you experiencing?</label>
+            <input type="text" id="symptom" name="symptom" placeholder="e.g., cough, fever, headache" required>
+            <button type="submit">Check Symptoms</button>
+        </form>
+        <div id="symptomResult"></div>
+    </section>
+
+    <!-- Health Tips Section -->
+    <section id="health-tips" class="tips">
+        <h2>Health Tips & Advice</h2>
+        <div class="tip">
+            <h3>Stay Hydrated</h3>
+            <p>Drinking enough water helps maintain body temperature, remove wastes, and keep joints lubricated.</p>
+        </div>
+        <div class="tip">
+            <h3>Get Regular Exercise</h3>
+            <p>Physical activity helps reduce the risk of chronic diseases and improves mental health.</p>
+        </div>
+        <div class="tip">
+            <h3>Eat a Balanced Diet</h3>
+            <p>Consuming a variety of fruits, vegetables, and whole grains promotes overall health.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: healthdept@example.com</p>
+        <p>Phone: 123-456-7890</p>
+        <p>Address: 123 Health St, City, Country</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Health Department. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
